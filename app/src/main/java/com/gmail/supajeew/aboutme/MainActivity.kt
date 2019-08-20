@@ -50,11 +50,6 @@ class MainActivity : AppCompatActivity() {
         val doneButton = binding.doneButton
         doneButton.visibility = View.VISIBLE
 
-//        val editText = binding.nicknameEdit
-//        val doneButton = binding.nicknameText
-//        editText.visibility = View.VISIBLE
-//        doneButton.visibility = View.VISIBLE
-//        view.visibility = View.GONE
 
         // Set the focus to the edit text.
         editText.requestFocus()
